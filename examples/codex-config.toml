@@ -1,0 +1,6 @@
+# Merge this block into your Codex MCP configuration and replace both paths.
+[mcp_servers.vivado_agent]
+command = "C:\\path\\to\\vivado-agent-mcp\\.venv\\Scripts\\python.exe"
+args = ["-m", "vivado_agent_mcp"]
+env = { VIVADO_PATH = "C:\\Xilinx\\Vivado\\2024.2\\bin\\vivado.bat" }
+
